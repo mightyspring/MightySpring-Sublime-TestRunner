@@ -1,5 +1,7 @@
 Overview
 --------
+A dinky little plugin to automate Sublime
+
 Running:
 
   - python unit tests 
