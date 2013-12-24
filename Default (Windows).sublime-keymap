@@ -1,0 +1,3 @@
+[
+    { "keys": ["ctrl+shift+t"], "command": "run_python_test" }
+]
