@@ -20,3 +20,10 @@ and clone the repository using the command below:
 ``` shell
 git clone https://github.com/mightyspring/MightySpring-Sublime-TestRunner
 ```
+
+Thank You
+_________
+
+This tool is looslely based on these repositories
+https://github.com/maltize/sublime-text-2-ruby-tests/
+https://github.com/lyapun/sublime-text-2-python-test-runner
