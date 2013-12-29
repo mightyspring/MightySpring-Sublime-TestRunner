@@ -1,6 +1,6 @@
 Overview
 --------
-A dinky little plugin to automate Sublime
+A dinky little plugin to run things from Sublime
 
 Running:
 
