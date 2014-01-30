@@ -16,7 +16,7 @@ class RunPythonTestCommand(sublime_plugin.TextCommand):
             if 'tests' in folders[1]:
                 test_folders = '/'.join(folders[1].split('/')[:-1])
                 commands = [
-                    'echo "Running tests in %s, Sir...\nTo run all tests, navigate to a file outside of the \'tests\' directory." ' % test_folders,
+                    'echo "Running tests in %s, Sir/Madam...\nTo run all tests, navigate to a file outside of the \'tests\' directory." ' % test_folders,
                     'cd %s' % REPO_ROOT,
                     'source venv/bin/activate',
                     'python scent.py %s --stop' % test_folders,
@@ -24,7 +24,7 @@ class RunPythonTestCommand(sublime_plugin.TextCommand):
                 ]
             else:
                 commands = [
-                    'echo "Running tests, Sir..." ',
+                    'echo "Running tests, Sir/Madam..." ',
                     'cd %s' % REPO_ROOT,
                     'source venv/bin/activate',
                     'python scent.py tests --stop',
@@ -42,7 +42,7 @@ class RunPythonTestCommand(sublime_plugin.TextCommand):
         else:
             #if the user isn't in the right directory, print a message to the console.
             commands = [
-                'echo "Sir, there was an error running Mighty Spring tests."',
+                'echo "Sir/Madam, there was an error running Mighty Spring tests."',
                 'echo "Please navigate to a file in the MightySpring repositiory and re-run this command."',
             ]
                 
